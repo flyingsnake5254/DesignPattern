@@ -4,7 +4,7 @@ import Strategy.Interface.FlyBehavior;
 import Strategy.Interface.QuackBehavior;
 
 public abstract class Duck {
-    // 針對會改變的部份，另外建立 Strategy.Interface (FlyBehavior, QuackBehavior)
+    // 利用「多型」宣告行為
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
