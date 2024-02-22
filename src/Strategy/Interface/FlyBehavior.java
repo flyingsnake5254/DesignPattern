@@ -1,4 +1,4 @@
-package Interface;
+package Strategy.Interface;
 
 public interface FlyBehavior {
     // 宣告 fly 行為

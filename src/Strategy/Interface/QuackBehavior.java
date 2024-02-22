@@ -1,4 +1,4 @@
-package Interface;
+package Strategy.Interface;
 
 public interface QuackBehavior {
     // 宣告 quack 行為

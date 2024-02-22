@@ -1,9 +1,9 @@
-package models;
+package Strategy.models;
 
-import Interface.QuackBehavior;
+import Strategy.Interface.QuackBehavior;
 
 public class QuackWay1 implements QuackBehavior {
-    // implements Quack Interface 後，定義叫聲行為
+    // implements Quack Strategy.Interface 後，定義叫聲行為
     @Override
     public void quack() {
         System.out.println("叫聲1");
